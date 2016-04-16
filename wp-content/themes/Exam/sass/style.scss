@@ -1,0 +1,265 @@
+/*
+Theme Name: Exam
+Author: GeekHub
+Version:1.0
+Description: Now, none
+*/
+
+
+@import "footer";
+@import "header";
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+
+}
+/*Home page*/
+.flexslider{
+
+  .slides{
+    img{
+      max-width: 100%;
+    }
+  }
+}
+/* about us */
+.about-us{
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 35px;
+  font-size: 14px;
+
+  .about-text, .about-button{
+    display: inline-block;
+    float: right;
+    margin-left: 23%;
+    text-align: left;
+  }
+  h2{
+    position: absolute;
+    left: 15px;
+    top: 0;
+    padding: 15px;
+    text-align: left;
+  }
+  h4{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    padding: 15px;
+    text-align: left;
+  }
+  .about-button{
+    margin-right: 53%;
+    padding: 10px;
+    margin-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid #ffaf36;
+    color: #ffaf36;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+/*servises */
+  .our_services {
+    margin-bottom: 100px;
+    position: relative;
+    border-top: 2px solid #eaeff3;
+
+    .services_list {
+      padding-left: 50px;
+      position: relative;
+      display: inline-block;
+      float: left;
+
+      p {
+        line-height: 30px;
+      }
+      img {
+        position: absolute;
+        left: -30px;
+        top: 0;
+        padding: 10px;
+      }
+    }
+    h2{
+      margin-top: 10px;
+      text-transform: uppercase;
+    }
+    .about-button{
+      padding: 10px;
+      margin-top: 30px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border: 2px solid #ffaf36;
+      color: #ffaf36;
+      margin-bottom: 100px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+  }
+
+/*blog page */
+.news-page{
+  margin-top: 100px;
+}
+.post{
+  display: block;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #7b7b7c;
+  float: left;
+
+  .author-photo{
+    float: left;
+  }
+  h2{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .post-info{
+    color: #7b7b7c;
+    display: block;
+  }
+  .more-link{
+    float: right;
+    padding: 10px;
+    margin-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid #ffaf36;
+    color: #ffaf36;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .more-link:hover{
+    background: #ffaf36;
+    border: 2px solid black;
+    color: black;
+  }
+  .social-posts{
+    color: #7b7b7c;
+    font-weight: bold;
+    padding-top: 30px;
+
+    li{
+      display: inline-block;
+      text-decoration: none;
+
+      a{
+        border-radius: 20px;
+      }
+      .google{
+        padding: 11px;
+        background: #eb4125;
+        color: white;
+      }
+      .facebook{
+        padding: 10px;
+        padding-right: 13px;
+        padding-left: 13px;
+        background: #496fa5;
+        color: white;
+      }
+      .twitter{
+        padding: 10px;
+        background: #00baef;
+        color: white;
+      }
+      a:hover{
+        color: blue;
+      }
+    }
+  }
+}
+.post:last-child {
+  border-bottom: none;
+}
+
+        /*pagination */
+.pagin {
+  padding-left: 35%;
+  margin-bottom: 100px;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+  color: #ffaf36;
+  text-decoration: none;
+  border: 2px solid #7b7b7c;}
+
+.navigation li {
+  display: inline; }
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+  cursor: pointer;
+  padding: 15px;
+}
+
+.navigation li a:hover,
+.navigation li.active a {
+  border: 2px solid #ffaf36;
+  color: #7b7b7c;
+}
+/* search */
+.searchform{
+  .search{
+    text-transform: uppercase;
+    padding: 10px;
+    color: #7b7b7c;
+    margin-top: 200px;
+    font-size: 12px;
+  }
+
+  .button-search{
+    background: #ffaf36;
+    margin-left: -10px;
+    padding: 10px;
+  }
+}
+/* categories */
+.category-products{
+  li{
+    padding: 15px;
+    list-style-type: none;
+
+    a{
+      color: #7b7b7c;
+    }
+  }
+  li:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    color: #ffaf36;
+    margin-left: -40px;
+    padding-right: 20px;
+  }
+}
+/* RESENT NEWS */
+.recent-news-products{
+  li {
+    padding: 20px;
+    list-style-type: none;
+  }
+}
+
+.text-color{
+  background: #fef1de;
+  border-left: 2px solid #ffaf36;
+  color: #3a3836;
+  margin-left: 15px;
+  padding: 15px;
+}
+
+

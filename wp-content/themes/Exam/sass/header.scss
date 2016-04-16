@@ -1,0 +1,41 @@
+.site-header {
+  background: #2a2b2c;
+  display: block;
+
+  .site-logo{
+    padding-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 150px;
+
+  }
+  .hd-telephone{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 8%;
+    color: white;
+
+    img{
+      padding-top: 10px;
+    }
+  }
+  .site-nav {
+    float: right;
+    margin-top: -40px;
+    padding-bottom: 30px;
+
+    li{
+      display: inline-block;
+      padding-right: 35px;
+      text-transform: uppercase;
+
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        color: #cc933d;
+      }
+    }
+  }
+}
